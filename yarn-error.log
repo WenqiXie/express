@@ -1,0 +1,39 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\qiqi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add body-parser
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\qiqi\AppData\Local\Microsoft\WindowsApps;C:\Users\qiqi\AppData\Local\atom\bin;C:\Users\qiqi\AppData\Roaming\npm
+
+Yarn version: 
+  0.23.4
+
+Node version: 
+  7.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "express",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "description": "",
+    "dependencies": {
+      "express": "^4.15.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'C:\Users\qiqi\Documents\GitHub\express\node_modules\send'
