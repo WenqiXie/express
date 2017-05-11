@@ -19,11 +19,6 @@ var ajax = function(method, path, data, reseponseCallback) {
 }
 
 
-const blogTemplate = function(form) {
-  this.title = form.title || ''
-  this.author = form.author || ''
-  this.content = form.content || ''
-}
 
 const insertBlog = function() {
 

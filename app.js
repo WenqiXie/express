@@ -6,6 +6,7 @@ app.use(express.static('static'))
 var bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: true }));
+// 这个是用来解析 form 表单的
 
 
 
@@ -28,9 +29,9 @@ const routeIndex = require('./route/index')
 registerRoutes(app, routeIndex.routes)
 
 // 导入 model/index.js 的所有路由数据
-const modelIndex = require('./model/index')
+const routeBlog = require('./route/blog')
 // routeIndex 是 route 文件夹 index.js 文件 exports 的一个 数组
-registerRoutes(app, modelIndex.routes)
+registerRoutes(app, routeBlog.routes)
 
 
 var server = app.listen(8080, function() {
